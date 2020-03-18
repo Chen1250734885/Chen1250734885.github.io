@@ -163,12 +163,17 @@
     </h1>
   
 
+
         <!--显示阅读次数-->
-    
+        
+
         
         <a href="/2020/03/16/First_write_for_mine/" class="archive-article-date">
   	<time datetime="2020-03-16T08:27:19.428Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-16</time>
 </a>
+
+
+
         
       </header>
     
@@ -216,7 +221,6 @@
 
 
 
-
   
   
 
@@ -232,7 +236,7 @@
 			<script>
 				var now = new Date(); 
 				function createtime() { 
-					var grt= new Date("03/19/2020 01:25:00");//此处修改你的建站时间或者网站上线时间 
+					var grt= new Date("03/19/2020 01:00:00");	//此处修改你的建站时间或者网站上线时间 
 					now.setTime(now.getTime()+250); 
 					days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
 					hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
@@ -250,15 +254,18 @@
 			<div class="footer-right">
 	  
 	  
-			  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-				<span id="busuanzi_container_site_pv">
-				  本站总访问量：<span id="busuanzi_value_site_pv"></span>次
-			  </span>
-			  <span class="post-meta-divider">|</span>
-			  <span id="busuanzi_container_site_uv">
-				  本站访客数：<span id="busuanzi_value_site_uv"></span>人
-			  </span>
-	  
+				
+					<!-- 不蒜子统计 -->
+					<span id="busuanzi_container_site_pv">
+							本站总访问量<span id="busuanzi_value_site_pv"></span>次
+					</span>
+					<span class="post-meta-divider">|</span>
+					<span id="busuanzi_container_site_uv" style='display:none'>
+							本站访客数<span id="busuanzi_value_site_uv"></span>人
+					</span>
+					<script async src="/busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+			  
+	
 	  
 			</div>
 	  </div>
